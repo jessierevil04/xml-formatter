@@ -145,6 +145,13 @@ main>#mainForm>div>button {
   font-size: 1.2rem;
   right: 25px;
   bottom: 25px;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+main>#mainForm>div>button:hover {
+  opacity: 1;
+  transition: 0.5s;
 }
 
 main>#mainForm>div:nth-child(2) span {
@@ -204,7 +211,7 @@ select {
     line-height: 30vh;
   }
 
-  main>#mainForm>div>button  {
+  main>#mainForm>div>button {
     bottom: unset;
     right: 0px;
     background: #3b3b3b;
@@ -214,7 +221,7 @@ select {
     border-radius: 3px;
   }
 
-  .App main>#config select{
+  .App main>#config select {
     height: 30px;
   }
 }
