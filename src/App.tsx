@@ -94,7 +94,7 @@ function App() {
             <textarea
               value={rawXML}
               onChange={(e) => setRawXML(e.target.value)}
-              placeholder="JSON Data"
+              placeholder="XML Data"
             />
           </div>
           <div>
