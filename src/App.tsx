@@ -52,7 +52,7 @@ function App() {
   };
 
   const copyBtnClick = () => {
-    copy(formattedXML);
+    copy(formattedXML, { format: "text/plain" });
     toast.info("Copied to clipboard", {
       position: "top-center",
       autoClose: 5000,
